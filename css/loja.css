@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    }
+
+.logoh{
+        height: 72px;
+        border-radius: 100px;
+    }
+
+a{
+        color: #ecd6c4;
+}
+
+body{
+    font-size: 100%;
+    background-color: #313131;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    align-items: center;
+    padding: 24px;
+    
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18px;
+}
+.produtos{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.produto1>img{
+    border-radius: 60px;
+    padding: 20px;
+    max-width: 900px;
+
+}
+.produto1{
+    gap: 10px;
+    border-radius: 60px;
+    font-size: 30px;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+}
+
+.comprar{
+    background-color: green;
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+    transition: 2s linear
+}
+
+.botoes{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.main h1 {
+    margin: 0;
+    font-size: 60px !important;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    border-top: solid 0.3px #FFF2E7;
+    color: #ecd6c4;
+    font-family: 'Sarala', sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer h4{
+    font-size: 30px;
+}
+
+.sociais{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sociais ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
